@@ -1,15 +1,11 @@
-// export const Hero = () => {
-//     return <div className="">
-//         <img src="/images/main-banner.jpg" alt="" />
-//     </div>
-// }
-
 import { Link } from "react-router-dom";
 
 export const Hero = () => {
     return (
         <div className="relative">
-            <img src="/images/main-banner.jpg" alt="" />
+            <div>
+                <img src="/src/images/main-banner.jpg" alt="" />
+            </div>
 
             <div className="absolute inset-0 flex flex-col left-72  ml-96 justify-center text-white">
                 <h1 className="text-5xl font-bold mb-4 uppercase">make <span className="text-yellow-500">sure</span> your body</h1>
