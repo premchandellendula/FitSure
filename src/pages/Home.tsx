@@ -1,5 +1,6 @@
 import { AboutCard } from "../components/About/AboutCards"
 import { LandingAbout } from "../components/About/LandingAbout"
+import BmiCalc from "../components/BMI/BmiCalc"
 import { Hero } from "../components/Hero/Hero"
 import { NavBar } from "../components/Nav/NavBar"
 import { Testimonials } from "../components/Testimonials/Testimonials"
@@ -13,5 +14,6 @@ export const Home = () => {
         <LandingAbout />
         <Trainers />
         <Testimonials />
+        <BmiCalc />
     </div>
 }
