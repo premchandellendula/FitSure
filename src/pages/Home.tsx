@@ -2,6 +2,7 @@ import { AboutCard } from "../components/About/AboutCards"
 import { LandingAbout } from "../components/About/LandingAbout"
 import { Hero } from "../components/Hero/Hero"
 import { NavBar } from "../components/Nav/NavBar"
+import { Testimonials } from "../components/Testimonials/Testimonials"
 import { Trainers } from "../components/Trainers/Trainers"
 
 export const Home = () => {
@@ -11,5 +12,6 @@ export const Home = () => {
         <AboutCard />
         <LandingAbout />
         <Trainers />
+        <Testimonials />
     </div>
 }
