@@ -1,5 +1,7 @@
+import { TopBanner } from "../components/Banner/TopBanner"
+
 export const Pricing = () => {
     return <div>
-        Pricing
+        <TopBanner page={"Pricing"} />
     </div>
 }

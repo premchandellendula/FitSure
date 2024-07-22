@@ -1,5 +1,7 @@
+import { TopBanner } from "../components/Banner/TopBanner"
+
 export const Gallery = () => {
     return <div>
-        Gallery
+        <TopBanner page={"Gallery"} />
     </div>
 }

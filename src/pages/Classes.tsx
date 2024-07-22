@@ -1,5 +1,7 @@
+import { TopBanner } from "../components/Banner/TopBanner"
+
 export const Classes = () => {
     return <div>
-        Classes
+        <TopBanner page={"Classes"} />
     </div>
 }

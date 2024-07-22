@@ -1,5 +1,7 @@
+import { TopBanner } from "../components/Banner/TopBanner"
+
 export const Contact = () => {
     return <div>
-        Contact
-    </div>
+    <TopBanner page={"Contact"} />
+</div>
 }
