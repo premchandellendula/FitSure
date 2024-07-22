@@ -21,9 +21,16 @@ export const NavBar = () => {
         }
     }, [])
 
+    const goTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+
     return <div className={`fixed w-full flex justify-between px-8 py-4 ${scrolled ? "bg-black" : "bg-transparent"} transition-colors duration-300 z-50`}>
-        <Link to={"/home"} className="flex flex-col justify-center text-2xl font-semibold cursor-pointer">
-            <div className="text-white text-3xl">
+        <Link to={"/"} className="flex flex-col justify-center text-2xl font-semibold cursor-pointer">
+            <div className="text-white text-3xl" onClick={goTop}>
                 Fit<span className="text-yellow-400">Sure</span>
             </div>
         </Link>
