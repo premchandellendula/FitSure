@@ -1,7 +1,7 @@
 import { TopBanner } from "../components/Banner/TopBanner"
-import beginnerImg from "../../public/images/asset 41.jpeg"
-import intermediateImg from "../../public/images/asset 42.jpeg"
-import proImg from "../../public/images/asset 43.jpeg"
+import beginnerImg from "/images/Pricing/beginner.jpeg"
+import intermediateImg from "/images/Pricing/intermediate.jpeg"
+import proImg from "/images/Pricing/pro.jpeg"
 import Footer from "../components/Footer/Footer"
 
 export const Pricing = () => {

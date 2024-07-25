@@ -1,4 +1,5 @@
 import { useState } from "react";
+import bmiBanner from "/images/BMI/BMI_banner.jpeg"
 
 function BmiCalc() {
   const [weight, setWeight] = useState(0);
@@ -27,7 +28,7 @@ function BmiCalc() {
 
   return <div className="relative mb-10">
         <div>
-            <img src="/public/images/asset 61.jpeg" alt="" className="w-full h-96" />
+            <img src={bmiBanner} alt="" className="w-full h-96" />
         </div>
 
         <div className="inset-0 absolute left-[10%] text-white w-[50%]">

@@ -1,9 +1,10 @@
 import { NavBar } from "../Nav/NavBar"
+import topBanner from "/images/TopBanner/topBanner.jpeg"
 
 export const TopBanner = ({page}: {page: string}) => {
     return <div className="relative">
         <div>
-            <img src="/public/images/asset 18.jpeg" alt="" className="h-72 w-full object-cover"/>
+            <img src={topBanner} alt="" className="h-72 w-full object-cover"/>
         </div>
         <div className="absolute inset-0">
             <NavBar />

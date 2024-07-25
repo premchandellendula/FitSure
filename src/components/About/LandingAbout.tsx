@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom"
-import trainerImg from "../../../public/images/asset 13.png"
-import equipmentImg from "../../../public/images/asset 14.png"
-import machineImg from "../../../public/images/asset 15.png"
+import liftingImg from "/images/LandingAbout/liftingImg.png"
+import equipmentImg from "/images/LandingAbout/equipmentImg.png"
+import machineImg from "/images/LandingAbout/machine.png"
+import girlImg from "/images/LandingAbout/girlImg.png"
+import redCircle from "/images/LandingAbout/redCircle.svg"
 
 const cardList = [
     {
-        img: trainerImg,
+        img: liftingImg,
         title: "professional trainers"
     },
     {
@@ -57,11 +59,11 @@ function LeftAboutCard({img, title} : CardInputs){
 function RightAbout(){
     return <div className="relative">
         <div className="ml-60">
-            <img src="/public/images/asset 17.svg" alt="hello" />
+            <img src={redCircle} alt="hello" />
         </div>
 
         <div className="absolute bottom-10 left-5">
-            <img src="/public/images/asset 16.png" alt="" />
+            <img src={girlImg} alt="" />
         </div>
     </div>
 }
