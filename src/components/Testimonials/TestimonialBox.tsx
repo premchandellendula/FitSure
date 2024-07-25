@@ -1,4 +1,4 @@
-import Quotes from "../../images/asset 32.png"
+import Quotes from "../../../public/images/asset 32.png"
 
 interface TestimonialInputs {
     text: string,

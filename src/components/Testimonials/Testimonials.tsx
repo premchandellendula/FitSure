@@ -3,7 +3,7 @@ import { TestimonialBoxes } from "./TestimonialBoxes"
 export const Testimonials = () => {
     return <div className="w-full h-96 mt-24 mb-24 border-[#efefef] bg-white border-solid p-[30px] min540:h-[48rem] min375:h-[60rem]">
         <div className="bg-black w-[77%] h-96 m-auto relative">
-            <img src="/src/images/asset 31.jpeg" alt="girl_img" className="absolute z-30 -left-10 bottom-0 rounded-tr-[200px] h-[28rem]" />
+            <img src="/public/images/asset 31.jpeg" alt="girl_img" className="absolute z-30 -left-10 bottom-0 rounded-tr-[200px] h-[28rem]" />
             
             <div className="flex">
                 <TestimonialBoxes />

@@ -1,8 +1,8 @@
 import { TopBanner } from "../components/Banner/TopBanner"
 import { Link } from "react-router-dom"
-import trainerImg from "../../src/images/asset 13.png"
-import equipmentImg from "../../src/images/asset 14.png"
-import machineImg from "../../src/images/asset 15.png"
+import trainerImg from "../../public/images/asset 13.png"
+import equipmentImg from "../../public/images/asset 14.png"
+import machineImg from "../../public/images/asset 15.png"
 import Footer from "../components/Footer/Footer"
 
 const cardList = [
@@ -67,11 +67,11 @@ function LeftAboutCard({img, title} : CardInputs){
 function RightAbout(){
     return <div className="relative">
         <div className="ml-60">
-            <img src="/src/images/asset 17.svg" alt="hello" />
+            <img src="/public/images/asset 17.svg" alt="hello" />
         </div>
 
         <div className="absolute bottom-10 left-5">
-            <img src="/src/images/asset 16.png" alt="" />
+            <img src="/public/images/asset 16.png" alt="" />
         </div>
     </div>
 }
@@ -79,10 +79,10 @@ function RightAbout(){
 function LeftImage(){
     return <div className="grid grid-cols-2">
         <div>
-            <img src="/src/images/asset 14.jpeg" alt="" />
+            <img src="/public/images/asset 14.jpeg" alt="" />
         </div>
         <div className="flex flex-col justify-center items-center gap-3">
-            <img src="/src/images/asset 13 (2).png" alt="" className="w-24 h-24" />
+            <img src="/public/images/asset 13 (2).png" alt="" className="w-24 h-24" />
             <h2 className="text-2xl font-bold">Our History</h2>
             <p className="text-center w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores fugit deserunt laudantium itaque, quis dolores explicabo blanditiis.</p>
         </div>
@@ -93,12 +93,12 @@ function LeftImage(){
 function RightImage(){
     return <div className="grid grid-cols-2">
         <div className="flex flex-col justify-center items-center gap-3">
-            <img src="/src/images/asset 16 (2).png" alt="" className="w-24 h-24"  />
+            <img src="/public/images/asset 16 (2).png" alt="" className="w-24 h-24"  />
             <h2 className="text-2xl font-bold">Our History</h2>
             <p className="text-center w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores fugit deserunt laudantium itaque, quis dolores explicabo blanditiis.</p>
         </div>
         <div>
-            <img src="/src/images/asset 15.jpeg" alt="" />
+            <img src="/public/images/asset 15.jpeg" alt="" />
         </div>
     </div>
 }

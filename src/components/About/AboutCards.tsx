@@ -1,6 +1,6 @@
-import progressionImg from "../../images/asset 9.png";
-import workoutImg from "../../images/asset 10.png";
-import nutritionImg from "../../images/asset 11.png";
+import progressionImg from "../../../public/images/asset 9.png";
+import workoutImg from "../../../public/images/asset 10.png";
+import nutritionImg from "../../../public/images/asset 11.png";
 
 export const AboutCard = () => {
     const cardList = [

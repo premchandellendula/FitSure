@@ -1,6 +1,6 @@
-import weightTrainer from "../../images/asset 26.png"
-import yogaTrainer from "../../images/asset 29.png"
-import danceTrainer from "../../images/asset 30.png"
+import weightTrainer from "/images/asset 26.png"
+import yogaTrainer from "/images/asset 29.png"
+import danceTrainer from "/images/asset 30.png"
 
 export const Trainers = () => {
     const trainerList = [

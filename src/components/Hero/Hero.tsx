@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
         <div className="relative">
             <div>
-                <img src="/src/images/main-banner.jpg" alt="" />
+                <img src="/public/images/main-banner.jpg" alt="" />
             </div>
 
             <div className="absolute inset-0 flex flex-col left-72  ml-96 justify-center text-white">

@@ -27,7 +27,7 @@ function BmiCalc() {
 
   return <div className="relative mb-10">
         <div>
-            <img src="/src/images/asset 61.jpeg" alt="" className="w-full h-96" />
+            <img src="/public/images/asset 61.jpeg" alt="" className="w-full h-96" />
         </div>
 
         <div className="inset-0 absolute left-[10%] text-white w-[50%]">
